@@ -1,0 +1,254 @@
+
+.lineshortener{line-height:0.3}
+
+ .sixtyfour {
+  font-family: "Sixtyfour", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "BLED" 0,
+    "SCAN" 0;
+ }
+
+ .dancing-script{
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.jacquarda-bastarda {
+  font-family: "Jacquarda Bastarda 9", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.anton-regular {
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.micro-5-regular {
+  font-family: "Micro 5", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: gold;
+}
+
+.barriecito-regular {
+  font-family: "Barriecito", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.slackside-one-regular {
+  font-family: "Slackside One", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+
+ body{
+    background-color: black;
+}
+
+.rounded-button {
+      background-color: gold; /* Set the background color */
+      border: none; /* Remove default border */
+      color: white; /* Set text color */
+      padding: 10px 20px; /* Add padding */
+      text-align: center; /* Center text */
+      text-decoration: none; /* Remove default underline */
+      display: inline-block; /* Make it behave like a block-level element */
+      font-size: 16px; /* Set font size */
+      border-radius: 40px; /* Set border radius to make it round */
+      cursor: pointer; /* Change cursor to pointer on hover */
+    }
+
+
+    .image-wrapper {
+      position: relative; /* Position the wrapper relative to its normal position */
+      display: inline-block; /* Display the wrapper as an inline-block element */
+    }
+
+    .image-wrapper-img {
+      position: absolute; /* Position the image absolutely within the wrapper */
+      top: -155px; /* Position the image at the top of the wrapper */
+      left: 100%; /* Position the image to the right of the word */
+      margin-left: 650px; /* Add some spacing between the word and the image */
+    }
+
+    .image-wrapper-intro {
+      position: absolute; /* Position the image absolutely within the wrapper */
+      top: -500px; /* Position the image at the top of the wrapper */
+      left: 100%; /* Position the image to the right of the word */
+      margin-left: 650px; /* Add some spacing between the word and the image */
+    }
+
+    .maindiv {
+  width: 1300px;
+  height: 750;
+  margin-left: auto;
+  background-color: transparent;
+}
+
+.selfintrodiv {
+  width: 1300px;
+  height: 650px;
+  margin: auto;
+  background-color: transparent;
+}
+
+ .textfloatleft{ 
+    text-align: left;
+}
+
+.textfloatright{
+    text-align: right;
+}
+
+.whitecolortext{
+    color: rgb(239, 239, 219);
+}
+
+.right-indented-text {
+      text-indent: 750px;
+      color: rgb(239, 239, 219);
+    }
+
+    .selfintrohr {
+      width: 45%; 
+      margin: 20px auto;
+      height: 4px;
+      float: left;
+      border-collapse: collapse;
+      border: 1px solid gold;
+      border-radius: 40px; 
+    }
+    .left-image {
+      flex-wrap:wrap; /* Float the image to the left */
+      margin-right: 10px; /* Add some margin to the right to create space between the image and text */
+    }
+
+    .hobbieflexright{display: flex;
+    flex-direction: row;
+  justify-content: space-between;}
+
+.hobbiesbox01{
+  width:250px; 
+  height: 250px;  
+  display:inline-block;
+  background-image: url('touch grass.jpg');
+  background-size:cover; 
+  border: 2px solid gold;
+  border-radius: 40px; 
+  border-collapse: collapse;
+  opacity: 0.8;
+}
+
+.hobbiesbox02{
+  width:250px; 
+  height: 250px;  
+  display:inline-block;
+  background-image: url('chef.jpg');
+  background-size:cover; 
+  border: 2px solid gold;
+  border-radius: 40px; 
+  border-collapse: collapse;
+  opacity: 0.8;
+}
+
+.hobbiesbox03{
+  width:250px; 
+  height: 250px;  
+  display:inline-block;
+  background-image: url('microsoft office.png');
+  background-size:cover; 
+  border: 2px solid gold;
+  border-radius: 40px; 
+  border-collapse: collapse;
+  opacity: 0.8;
+}
+
+.hobbiesbox{
+  width:250px; 
+  height: 250px;  
+  display:inline-block;
+  background-size:cover; 
+  border: 2px solid gold;
+  border-radius: 40px; 
+  border-collapse: collapse;
+  opacity: 0.8;
+}
+
+.imagecaption {
+  display:inline-block;
+  text-align: center;
+  width: 250px;
+  height: 250px;
+  background-color: rgba(32, 32, 32, 0.75);
+  color: #ecd078;
+  opacity: 0;
+  margin-bottom: 25px;
+  border: 2px solid gold;
+  border-radius: 40px; 
+  border-collapse: collapse;
+}
+
+.imagecaption:hover{
+  opacity: 1;
+}
+
+.hobbiessection{
+  display: flex;
+  flex-direction: row;
+justify-content: space-between;
+}
+
+.verhobbiebox{
+  width: 150px;
+  height: 500px;
+  background-color: #ecd078;
+  display: inline-block;
+  opacity: 0.7;
+  background-size: cover;
+ ;
+}
+
+.imagecaptionver {
+  display:inline-block;
+  text-align: center;
+  width: 150px;
+  height: 500px;
+  background-color: rgba(32, 32, 32, 0.75);
+  color: #ecd078;
+  opacity: 0;
+  margin-bottom: 25px;
+}
+
+.imagecaptionver:hover{
+  opacity: 1;
+}
+
+.verticaltext{
+  writing-mode: vertical-rl;
+  text-orientation: upright;}
